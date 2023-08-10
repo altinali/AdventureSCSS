@@ -1,0 +1,33 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+
+  &-logo{
+    color: var(--text-color);
+    cursor: pointer;
+  }
+
+  &-links {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin: 0 30px;
+      cursor: pointer;
+
+      &:hover a{
+        color: var(--primary-color);
+      }
+a{
+  color: var(--text-color);
+
+}
+      
+    }
+  }
+}
